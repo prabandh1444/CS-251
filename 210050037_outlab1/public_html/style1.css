@@ -1,0 +1,338 @@
+h1 {
+    color: black;
+    text-align: center;
+  }
+  a.one:link,a.one:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left:80px;
+    top:30px;
+  }
+  a.two:link,a.two:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left:320px;
+    top:30px;
+  }
+  a.three:link,a.three:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left:560px;
+    top:30px;
+  }
+  a.four:link,a.four:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left:800px;
+    top:30px;
+  }
+  a.five:link,a.five:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left:1040px;
+    top:30px;
+  }
+  body {
+    background-color: lightblue;
+    background-image: url(background.jpg);
+  }
+  div.absolute {
+    position: absolute;
+    background-color: hotpink;
+    color: navy;
+    font-size: 30px;
+    font-style:italic;
+    top:320px;
+    left: 40px;
+    width: 600px;
+    height: 200px;
+    border: 3px solid hotpink;
+  }
+  div.absolute1 {
+    position: absolute;
+    background-color: green;
+    font-size: 50px;
+    text-align: center;
+    font-style:italic;
+    top:600px;
+    left: 40px;
+    width: 350px;
+    height: 50px;
+    border: 3px solid yellow;
+  }
+  div.absolute2 {
+    position: absolute;
+    background-color: orange;
+    font-size: 50px;
+    text-align: center;
+    font-style:initial;
+    top:200px;
+    left: 40px;
+    width: 800px;
+    height: 70px;
+    border: 3px solid grey;
+  }
+h1{
+    color: red;
+}
+img{
+   position: absolute; 
+    top:320px;
+    left: 1000px;
+    width: 491px;
+    height: 500px;
+}
+a.one1:link,a.one1:visited{
+  background-color: white;
+  color: black;
+  border: 2px solid magenta;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  position: absolute;
+  left: 30px;
+  top:700px;
+}
+a.two1:link,a.two1:visited{
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  left:140px;
+  top:700px;
+}
+a.three1:link,a.three1:visited{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  left:270px;
+  top:700px;
+}
+a.four1:link,a.four1:visited{
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  left:390px;
+  top:700px;
+}
+input[type=checkbox].one{
+position: fixed;top:440px;left: 1000px;
+}
+input[type=checkbox].two{
+position: fixed;top:500px;left: 1000px;
+}
+input[type=checkbox].three{
+position: fixed;top:560px;left: 1000px;
+}
+input[type=checkbox].four{
+position: fixed;top:620px;left: 1000px;
+}
+input[type=checkbox].five{
+position: fixed;top:680px;left: 1000px;
+}
+button{
+position: fixed;top:730px;left: 1050px;
+}
+label.one{
+color: red;font-size: 30px;position: fixed;top:440px;left: 1050px;
+}
+label.two{
+color: red;font-size: 30px;position: fixed;top:500px;left: 1050px;
+}
+label.three{
+color: red;font-size: 30px;position: fixed;top:560px;left: 1050px;
+}
+label.four{
+color: red;font-size: 30px;position: fixed;top:620px;left: 1050px;
+}
+label.five{
+color: red;font-size: 30px;position: fixed;top:680px;left: 1050px;
+}
+div.c{
+  color: violet;font-size: 50px;position: fixed;top:300px;left: 1050px;
+}
+div.absolute3 {
+  position: absolute;
+  background-color: black;
+  font-size: 50px;
+  text-align: center;
+  font-style:initial;
+  color:white;
+  top:200px;
+  left: 40px;
+  width: 800px;
+  height: 230px;
+  border: 3px solid white;
+}
+div.som{
+  color:red;font-size: 30px;position: fixed;top:220px;left: 1050px;background-color: white;
+  border: 2px white;
+  }
+div.me{
+  color:red;font-size: 30px;position: fixed;top:300px;left: 1050px;background-color: white;
+  border: 2px white;
+  }
+  a.me:link,a.me:visited{
+color: red;
+font-size: 20px;
+position: absolute;
+top:340px;
+left:1050px;
+  }
+a.som:link,a.som:visited{
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  top:260px;
+  left:1050px;
+}
+div.over {
+  position: absolute;
+  background-color: black;
+  font-size: 50px;
+  text-align: center;
+  font-style:initial;
+  color:white;
+  top:370px;
+  left: 1050px;
+  width: 800px;
+  height: 230px;
+  border: 3px solid white;
+}
+a.over:link,a.over:visited{
+  color:hotpink;
+  font-size: 50px;
+  position: absolute;
+  top:620px;
+  left:1050px;
+}
+div.absolute4 {
+  position: absolute;
+  background-color: skyblue;
+  font-size: 50px;
+  text-align: center;
+  font-style:initial;
+  color:red;
+  top:200px;
+  left: 40px;
+  width: 1600px;
+  height: 60px;
+  border: 3px solid orange;
+}
+  table {
+    position: absolute;
+    top:320px;
+    left:900px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 900px;
+    background-color:pink;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+div.absolute5 {
+  position: absolute;
+  background-color: honeydew;
+  font-size: 50px;
+  text-align: center;
+  font-style:initial;
+  color:red;
+  top:200px;
+  left: 40px;
+  width: 1600px;
+  height: 180px;
+  border: 3px solid orange;
+}
+p.glow1{
+  position: absolute;
+  top:440px;
+  left: 1200px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
+p.glow2{
+  position: absolute;
+  top:500px;
+  left: 1200px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
+p.glow3{
+  position: absolute;
+  top:560px;
+  left: 1200px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
+p.glow4{
+  position: absolute;
+  top:620px;
+  left: 1200px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
+p.glow5{
+  position: absolute;
+  top:680px;
+  left: 1200px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+}
